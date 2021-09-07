@@ -1,0 +1,60 @@
+{
+    "name": "nasmcustom",
+    "author": {
+        "email": "l.irsigler64@gmail.com",
+        "name": "Lucian Irsigler"
+    },
+    "publisher": "LucianIrsigler",
+    "displayName": "custom nasm x86 syntax highlighting",
+    "description": "custom theme for syntax highlighting for nasm x86 assembly",
+    "version": "1.0.7",
+    
+    "repository": {
+        "type": "git",
+        "url":"git@github.com:CopyandPaste-png/custom-nasm-x86-syntax-highlighting.git"
+    },
+
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "keywords": [
+        "asm",
+        "nasm",
+        "assembly",
+        "NASM",
+        "x86"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "nasm",
+                "aliases": [
+                    "nasm x86 assembly",
+                    "nasm"
+                ],
+                "extensions": [
+                    ".asm",
+                    ".nasm"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "nasm",
+                "scopeName": "source.asm",
+                "path": "./syntaxes/nasm.tmLanguage.json"
+            }
+        ],
+        "themes": [
+            {
+                "id": "nasmx86",
+                "label": "nasm x86",
+                "path": "./themes/syntax-highlight.json",
+                "uiTheme": "vs-dark"
+            }
+        ]}
+}
