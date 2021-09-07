@@ -7,7 +7,7 @@
     "publisher": "LucianIrsigler",
     "displayName": "custom nasm x86 syntax highlighting",
     "description": "custom theme for syntax highlighting for nasm x86 assembly",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "icon":"icon/icon.png",
     
     "repository": {
