@@ -7,7 +7,7 @@
     "publisher": "LucianIrsigler",
     "displayName": "custom nasm x86 syntax highlighting",
     "description": "custom theme for syntax highlighting for nasm x86 assembly",
-    "version": "1.0.9",
+    "version": "1.1.0",
     "icon":"icon/icon.png",
     
     "repository": {
@@ -56,7 +56,7 @@
             {
                 "id": "nasmx86",
                 "label": "nasm x86",
-                "path": "./themes/syntax-highlight.json",
+                "path": "./themes/dark_plus.json",
                 "uiTheme": "vs-dark"
             }
         ]}
